@@ -66,7 +66,8 @@ public class InputParenPadLeftRightAndNoSpace1
             //           '')' is preceded with whitespace.'
         }
 
-        @SuppressWarnings( "") // violation ''(' is followed by whitespace.'
+        // violation 1 lines below ''(' is followed by whitespace.'
+        @SuppressWarnings( "")
         void method( boolean status) { // violation ''(' is followed by whitespace.'
             try ( Writer writer = new StringWriter( )) {
             // 3 violations above:
